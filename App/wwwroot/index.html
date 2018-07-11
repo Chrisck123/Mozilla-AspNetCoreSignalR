@@ -38,8 +38,7 @@
     <script src="https://cdn.jsdelivr.net/npm/msgpack5@4.0.2/dist/msgpack5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@aspnet/signalr-protocol-msgpack@1.0.2/dist/cjs/index.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script>
-        (async function () {
+    <script>(async function() {
             const connection = new signalR.HubConnectionBuilder()
                 .withUrl("/app")
                 //.withHubProtocol(new signalR.protocols.msgpack.MessagePackHubProtocol())
@@ -82,8 +81,7 @@
                 app.messages.push(message);
             });
             await connection.start();
-        })();
-    </script>
+})();</script>
 </body>
 
 </html>
