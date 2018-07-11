@@ -11,4 +11,4 @@
 /Users/chris/Demo/App/obj/Debug/netcoreapp2.1/App.RazorTargetAssemblyInfo.cache
 /Users/chris/Demo/App/obj/Debug/netcoreapp2.1/App.dll
 /Users/chris/Demo/App/obj/Debug/netcoreapp2.1/App.pdb
-/Users/chris/Demo/App/obj/Debug/netcoreapp2.1/App.csprojAssemblyReference.cache
+/Users/chris/Demo/App/obj/Debug/netcoreapp2.1/App.csprojResolveAssemblyReference.cache

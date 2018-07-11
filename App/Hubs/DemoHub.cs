@@ -6,9 +6,10 @@ namespace App
 {
     public class DemoHub : Hub
     {
-        public Task Send(ChatMessage message)
+        public async Task Send(ChatMessage message)
         {
-            return Clients.All.SendAsync("Send", message.Message);
+            await Groups.AddToGroupAsync(Context.ConnectionId, "abc");
+            await Clients.Group("abc").SendAsync("Send", message.Message);
         }
 
         public ChannelReader<int> CountDown(int from)

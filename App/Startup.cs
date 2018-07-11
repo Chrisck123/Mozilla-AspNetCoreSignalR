@@ -34,7 +34,7 @@ namespace App
 
             app.UseSignalR(routes =>
             {
-                routes.MapHub<DemoHub>("/app");
+                routes.MapHub<DemoHub>("/bcb");
             });
         }
     }

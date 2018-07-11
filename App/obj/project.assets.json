@@ -11569,13 +11569,13 @@
       "projectName": "App",
       "projectPath": "/Users/chris/Demo/App/App.csproj",
       "packagesPath": "/Users/chris/.nuget/packages/",
-      "outputPath": "/Users/chris/Demo/App/obj/",
+      "outputPath": "/Users/chris/Demo/App/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/chris/.nuget/NuGet/NuGet.Config"
+        "/Users/chris/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -11597,20 +11597,20 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.1.0",
+            "autoReferenced": true
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "2.1.1"
           },
           "Microsoft.AspNetCore.SignalR.Protocols.MessagePack": {
             "target": "Package",
-            "version": "[1.0.2, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.1.0, )",
-            "autoReferenced": true
+            "version": "1.0.2"
           }
         },
         "imports": [
